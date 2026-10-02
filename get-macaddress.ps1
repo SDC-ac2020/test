@@ -1,0 +1,1 @@
+﻿Get-CimInstance -ComputerName htf13-05 -Query 'Select * From Win32_NetworkAdapter Where NetConnectionStatus=2' | Select-Object -Property Name, Manufacturer, MacAddress

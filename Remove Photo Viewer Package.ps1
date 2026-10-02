@@ -1,0 +1,1 @@
+﻿get-appxpackage -allusers *Microsoft.Windows.Photos* | remove-appxpackagel
